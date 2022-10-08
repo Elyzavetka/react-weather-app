@@ -6,7 +6,11 @@ export default function App() {
       Weather app
       <footer>
         This project was coded by Liza Tarasova
-        <a href="https://polite-sherbet-e0fba5.netlify.app" target="_blank"></a>
+        <small>
+          <a href="https://polite-sherbet-e0fba5.netlify.app" target="_blank">
+            Open-source code
+          </a>
+        </small>
         ;
       </footer>
     </div>
