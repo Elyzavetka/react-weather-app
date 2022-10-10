@@ -5,15 +5,14 @@ export default function App() {
   return (
     <div className="App">
       <div class="container">
-        Weather app
         <Weather />
-        <p>
+        <footer>
           This project was coded by Liza Tarasova
           <a href="https://polite-sherbet-e0fba5.netlify.app">
             Open-source code
           </a>
           ;
-        </p>
+        </footer>
       </div>
     </div>
   );
