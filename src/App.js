@@ -11,7 +11,6 @@ export default function App() {
           <a href="https://polite-sherbet-e0fba5.netlify.app">
             Open-source code
           </a>
-          ;
         </footer>
       </div>
     </div>
