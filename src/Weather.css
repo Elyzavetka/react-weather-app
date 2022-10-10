@@ -23,6 +23,8 @@
   width: 64px;
   display: inline-block;
   margin-right: 10px;
+  position: relative;
+  top: -18px;
 }
 .Weather .temperature {
   font-weight: bold;
