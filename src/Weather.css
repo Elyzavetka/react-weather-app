@@ -1,55 +1,117 @@
 .Weather {
-  border: 1px solid #dadde1;
-  font-family: arial, sans-serif;
-  color: #878787;
-  padding: 16px;
-  margin: 30px, auto;
-  margin-top: 30px;
+  display: block;
+  margin: 20px auto;
+  color: rgb(78, 78, 78);
+  width: 700px;
+  border: 2px solid #857728;
   border-radius: 4px;
-  max-width: 600px;
+  background-color: #d3dbff;
+  padding: 30px 45px;
+  margin-bottom: 30px;
 }
 
-.Weather form {
+form {
   margin-bottom: 20px;
 }
-.Weather h1 {
-  font-size: 24px;
-  font-weight: 100;
-  line-height: 29px;
-  margin: 20px 0 0 0;
+button {
+  color: white;
+  background-color: #0c4e87;
+  transition: all 200ms ease-in-out;
 }
-.Weather img {
-  height: 64px;
-  width: 64px;
-  display: inline-block;
-  margin-right: 10px;
-  position: relative;
-  top: -18px;
+button:hover {
+  opacity: 0.8;
+  cursor: pointer;
 }
-.Weather .temperature {
-  font-weight: bold;
-  color: rgb(33, 33, 33);
-  font-size: 64px;
-  line-height: 64px;
-  font-weight: 400;
+h2 {
+  margin-top: 20px;
+}
+h1 {
+  margin-top: 15px;
+  padding-left: 30px;
+  font-weight: 900;
+}
+.search {
+  border: 1px solid #0c4e87;
+  border-radius: 30px;
+  line-height: 2;
+  margin-right: 5px;
+}
+.today {
+  font-size: 80px;
 }
 
-.Weather ul {
-  margin: 0;
+.day {
+  margin: 8px;
+  padding: 8px;
+
+  text-align: center;
+  border: 1px solid #857728;
+  border-radius: 4px;
+  transition: all 200ms ease-in-out;
+}
+.day canvas {
+  display: block;
+  margin: 0 auto;
   padding: 0;
 }
-
-.Weather li {
-  font-size: 16px;
-  font-weight: 100;
-  line-height: 19px;
-  list-style: none;
+.day:hover {
+  background-color: #e0e6fd;
 }
-.Weather .units {
-  color: rgb(33, 33, 33);
+
+.degree {
+  font-size: 30px;
   position: relative;
-  top: -34px;
-  font-size: 16px;
-  line-height: 1;
-  font-weight: 400;
+  bottom: 35px;
+}
+.active {
+  text-decoration: none;
+}
+
+#fahrenheit,
+#сelsius {
+  color: rgb(78, 78, 78);
+}
+
+#git-link {
+  text-decoration: none;
+}
+#icon {
+  padding-left: 30px;
+}
+#description {
+  text-transform: capitalize;
+}
+@media (max-width: 1024px) {
+  .Weather {
+    width: 100%;
+    margin: 30px auto;
+  }
+  h1,
+  h2 {
+    padding: 0;
+    margin: 15px 0;
+  }
+}
+@media (max-width: 541px) {
+  .Weather {
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    margin: 30px auto;
+  }
+  h1,
+  h2 {
+    padding: 0;
+    margin: 15px 0;
+  }
+  button,
+  input {
+    width: 80%;
+    margin-top: 10px;
+  }
+  #icon {
+    display: block;
+    margin: 0 auto;
+    padding: 0 0 0 17px;
+  }
 }
