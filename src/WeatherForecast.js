@@ -24,9 +24,7 @@ export default function WeatherForecast(props) {
           Day {Math.round(forecast[0].temp.max)}° • Night{" "}
           {Math.round(forecast[0].temp.min)}°
         </div>
-        <div className="col-12">
-          <small>Daily Forecast</small>
-        </div>
+
         {forecast.map(function (dailyForecast, index) {
           if (index < 5) {
             return (
