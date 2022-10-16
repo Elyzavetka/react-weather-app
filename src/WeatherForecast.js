@@ -1,8 +1,8 @@
 import axios from "axios";
 import React, { useState, useEffect } from "react";
 import WeatherIcon from "./WeatherIcon";
-import FormatedDay from "./FormatedDay";
-import FormatedDate from "./FormatedDate";
+import FormattedDay from "./FormattedDay";
+import FormattedDate from "./FormattedDate";
 
 export default function WeatherForecast(props) {
   const [loaded, setLoaded] = useState(false);
@@ -29,9 +29,9 @@ export default function WeatherForecast(props) {
           if (index < 5) {
             return (
               <div className="col day" key={index}>
-                <FormatedDay day={new Date(dailyForecast.dt * 1000)} />
+                <FormattedDay day={new Date(dailyForecast.dt * 1000)} />
                 <br />
-                <FormatedDate date={new Date(dailyForecast.dt * 1000)} />
+                <FormattedDate date={new Date(dailyForecast.dt * 1000)} />
                 <div className="p-2">
                   <WeatherIcon code={dailyForecast.weather[0].icon} size={48} />
                 </div>
