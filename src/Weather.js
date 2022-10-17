@@ -4,7 +4,7 @@ import axios from "axios";
 import WeatherInfo from "./WeatherInfo";
 import WeatherForecast from "./WeatherForecast";
 
-export default function Weather(props) {
+function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
   const [city, setCity] = useState(props.defaultCity);
   function showData(responce) {
@@ -30,7 +30,7 @@ export default function Weather(props) {
     search();
   }
   function search() {
-    let apiKey = "fa08fdd055e22cb26592fb746ab2d10d";
+    let apiKey = "a9c8a1ce0370b92d2bf8acab56c68686";
     let url = `https://api.openweathermap.org/data/2.5/weather?q=${city}
 		&appid=${apiKey}&units=metric`;
     axios.get(url).then(showData);
@@ -63,3 +63,5 @@ export default function Weather(props) {
     return <div>Loading...</div>;
   }
 }
+
+export default Weather;

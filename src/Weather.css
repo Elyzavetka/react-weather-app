@@ -1,11 +1,18 @@
 .Weather {
   display: block;
-  margin: 20px auto;
-  color: rgb(78, 78, 78);
-  width: 700px;
-  border: 2px solid #857728;
+  margin: 50px auto;
+  color: white;
+  width: 60%;
+  border: 1px solid #0c4e87;
   border-radius: 4px;
-  background-color: #d3dbff;
+  background-image: linear-gradient(
+    to right top,
+    #457fb3,
+    #5e93c4,
+    #77a8d5,
+    #8fbde6,
+    #a7d2f8
+  );
   padding: 30px 45px;
   margin-bottom: 30px;
 }
@@ -37,15 +44,14 @@ h1 {
   margin-right: 5px;
 }
 .today {
-  font-size: 80px;
+  font-size: 70px;
 }
 
 .day {
-  margin: 8px;
-  padding: 8px;
-
+  margin: 10px;
+  padding: 10px;
   text-align: center;
-  border: 1px solid #867334;
+  border: 1px solid white;
   border-radius: 4px;
   transition: all 200ms ease-in-out;
 }
@@ -55,21 +61,30 @@ h1 {
   padding: 0;
 }
 .day:hover {
-  background-color: #e0e6fd;
+  background-image: linear-gradient(
+    to right top,
+    #457fb3,
+    #5e93c4,
+    #77a8d5,
+    #8fbde6,
+    #a7d2f8
+  );
 }
 
 .degree {
   font-size: 30px;
   position: relative;
-  bottom: 35px;
+  bottom: 27px;
 }
 .active {
   text-decoration: none;
 }
-
+#search-city:hover {
+  border: 1px solid white;
+}
 #fahrenheit,
 #сelsius {
-  color: rgb(78, 78, 78);
+  color: white;
 }
 
 #git-link {
