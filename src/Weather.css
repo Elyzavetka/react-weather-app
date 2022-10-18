@@ -3,7 +3,7 @@
   margin: 20px auto;
   color: rgb(78, 78, 78);
   width: 700px;
-  border: 2px solid #857728;
+  border: 2px solid #a58852;
   border-radius: 4px;
   background-color: #d3dbff;
   padding: 30px 45px;
@@ -15,7 +15,7 @@ form {
 }
 button {
   color: white;
-  background-color: #0c4e87;
+
   transition: all 200ms ease-in-out;
 }
 button:hover {
@@ -31,10 +31,7 @@ h1 {
   font-weight: 900;
 }
 .search {
-  border: 1px solid #0c4e87;
-  border-radius: 30px;
-  line-height: 2;
-  margin-right: 5px;
+  border: 1px solid #a58852;
 }
 .today {
   font-size: 80px;
@@ -45,7 +42,7 @@ h1 {
   padding: 8px;
 
   text-align: center;
-  border: 1px solid #867334;
+  border: 1px solid #a58852;
   border-radius: 4px;
   transition: all 200ms ease-in-out;
 }
