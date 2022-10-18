@@ -11,10 +11,10 @@
 }
 
 form {
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 button {
-  background-color: #172963;
+  background-color: #535f86;
   transition: all 200ms ease-in-out;
 }
 button:hover {
@@ -30,9 +30,8 @@ h1 {
   font-weight: 900;
 }
 .search {
-  border: 1px solid #0c4e87;
-  border-radius: 30px;
-  line-height: 2;
+  border: 1px solid #535f86;
+
   margin-right: 5px;
 }
 .today {
@@ -80,6 +79,7 @@ h1 {
 }
 #description {
   text-transform: capitalize;
+  font-weight: bold;
 }
 @media (max-width: 1024px) {
   .Weather {
