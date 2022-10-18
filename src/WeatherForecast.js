@@ -3,7 +3,6 @@ import React, { useState, useEffect } from "react";
 import WeatherIcon from "./WeatherIcon";
 import FormattedDay from "./FormattedDay";
 import FormattedDate from "./FormattedDate";
-import "./WeatherForecast.css";
 
 export default function WeatherForecast(props) {
   const [loaded, setLoaded] = useState(false);

@@ -1,28 +1,20 @@
 .Weather {
   display: block;
-  margin: 50px auto;
-  color: white;
-  width: 60%;
-  border: 1px solid #0c4e87;
+  margin: 20px auto;
+  color: #4e4e4e;
+  width: 700px;
+  border: 1px solid rgb(185, 152, 89);
   border-radius: 4px;
-  background-image: linear-gradient(
-    to right top,
-    #457fb3,
-    #5e93c4,
-    #77a8d5,
-    #8fbde6,
-    #a7d2f8
-  );
-  padding: 30px 45px;
-  margin-bottom: 30px;
+  background-color: #dbe2ff;
+  padding: 20px 35px;
+  margin-bottom: 5px;
 }
 
 form {
   margin-bottom: 20px;
 }
 button {
-  color: white;
-  background-color: #0c4e87;
+  background-color: #172963;
   transition: all 200ms ease-in-out;
 }
 button:hover {
@@ -51,7 +43,7 @@ h1 {
   margin: 10px;
   padding: 10px;
   text-align: center;
-  border: 1px solid white;
+  border: 1px solid rgb(185, 152, 89);
   border-radius: 4px;
   transition: all 200ms ease-in-out;
 }
@@ -61,14 +53,7 @@ h1 {
   padding: 0;
 }
 .day:hover {
-  background-image: linear-gradient(
-    to right top,
-    #457fb3,
-    #5e93c4,
-    #77a8d5,
-    #8fbde6,
-    #a7d2f8
-  );
+  background-color: #dcedfc;
 }
 
 .degree {
@@ -84,7 +69,7 @@ h1 {
 }
 #fahrenheit,
 #сelsius {
-  color: white;
+  color: #4e4e4e;
 }
 
 #git-link {

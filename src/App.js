@@ -8,14 +8,14 @@ function App() {
         <Weather defaultCity="London" />
         <p className="text-center">
           <a
-            href="https://github.com/Victorynm/weather-app-react"
+            href="https://polite-sherbet-e0fba5.netlify.app"
             rel="noreferrer"
             target="_blank"
             id="git-link"
           >
             Open-source code
           </a>{" "}
-          by
+          by Liza Tarasova
         </p>
       </div>
     </div>
