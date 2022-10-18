@@ -1,7 +1,7 @@
 import React from "react";
-import FormattedDate from "./FormattedDate";
-import FormattedDay from "./FormattedDay";
-import FormattedTime from "./FormattedTime";
+import FormatedDate from "./FormatedDate";
+import FormatedDay from "./FormatedDay";
+import FormatedTime from "./FormatedTime";
 import WeatherIcon from "./WeatherIcon";
 import WeatherTemperature from "./WeatherTemperature";
 
@@ -10,7 +10,7 @@ export default function WeatherInfo(props) {
     <div className="row">
       <div className="col-md-4 col-sm-12">
         <h2>
-          <FormattedDay day={props.data.date} />
+          <FormatedDay day={props.data.date} />
         </h2>
       </div>
       <div className="col-md-8 col-sm-12">
@@ -18,8 +18,8 @@ export default function WeatherInfo(props) {
       </div>
       <div className="col-sm-12">
         <small>
-          <FormattedDate date={props.data.date} />
-          <FormattedTime date={props.data.date} />
+          <FormatedDate date={props.data.date} />
+          <FormatedTime date={props.data.date} />
         </small>
       </div>
       <div className="col-sm-4 today">

@@ -1,8 +1,8 @@
 import axios from "axios";
 import React, { useState, useEffect } from "react";
 import WeatherIcon from "./WeatherIcon";
-import FormattedDay from "./FormattedDay";
-import FormattedDate from "./FormattedDate";
+import FormattedDay from "./FormatedDay";
+import FormattedDate from "./FormatedDate";
 
 export default function WeatherForecast(props) {
   const [loaded, setLoaded] = useState(false);
